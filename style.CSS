@@ -1,15 +1,11 @@
 body{
     margin: 0px auto;
     background-color: #f2f2f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* start menu style */
-.menu {
-    
-}
-.menu ul{
-    
-}
+
 .menu ul>li{
     display: inline;
     margin-left: 10px;
@@ -27,14 +23,12 @@ body{
 .heading{
     text-align: left;
     margin-left: 160px;
-    color:cyan;
+    color: #181818;
 
 }
 
 /* start main */
-.main{
 
-}
 
 .description{
     float: left;
@@ -51,4 +45,16 @@ body{
     float: left;
     width: 50%;
     
+}
+
+
+footer{
+    clear: both;
+    position: absolute;
+    bottom: 0;
+}
+h5{
+    font-size: 18px;
+    text-align: center;
+    margin-left: 40px;
 }
