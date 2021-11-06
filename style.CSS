@@ -25,5 +25,30 @@ body{
 /* End menu style */
 
 .heading{
-    text-align: center;
+    text-align: left;
+    margin-left: 160px;
+    color:cyan;
+
+}
+
+/* start main */
+.main{
+
+}
+
+.description{
+    float: left;
+    width: 40%;
+    background-color: #fff;
+    padding: 40px 20px 40px 80px;
+    margin: 40px;
+    border-radius: 10px;
+}
+.description p,li{
+    font-size: 25px;
+}
+.picture{
+    float: left;
+    width: 50%;
+    
 }
