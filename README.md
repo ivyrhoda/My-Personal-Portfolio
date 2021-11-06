@@ -1,5 +1,5 @@
 # Project Name
-My Personal Portfoli0
+My Personal Portfolio
 # Author Name 
 Ivy Rhoda
 
