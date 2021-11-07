@@ -17,6 +17,9 @@ body{
     font-weight: 700;
 }
 
+.menu ul>li>a:hover{
+    color: fuchsia;
+}
 /* End menu style */
 
 .heading{
@@ -63,8 +66,15 @@ h3{
     color: blue;
 }
 div a{
-    margin-left: 10px;
-    margin-right: 300px;
-    font-size: 80px;
-    color: darkslategray;
+    margin-left: 60px;
+    margin-right: 250px;
+    font-size: 50px;
+}
+div img{
+    padding: 1%;
+    margin-left: 40px;
+    float: left;
+    shape-image-threshold: initial;
+    width: 20%;
+  
 }
