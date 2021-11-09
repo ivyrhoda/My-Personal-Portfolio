@@ -64,8 +64,9 @@ h5{
     text-align: center;
     margin-left: 40px;
 }
-h4{
+h3{
     margin-left: 100px;
+    margin-right: 300px;
     font-size: 15Px;
     color: blue;
 }
@@ -83,7 +84,26 @@ div img{
     width: 20%;
   
 }
-img src{
-    padding-bottom: 20px;
-    height: 20px;
+.card{
+    height: 170px;
+    width: 400px;
+    margin-bottom: 400px;
+}
+
+.card h3{
+    margin-left: 2rem;
+    text-align: center;
+    margin-right: 4rem;
+    height: 300px;
+}
+
+.skills{
+    margin-right: 100px;
+    height: 70px;
+    width: 500px;
+    float: right;
+    justify-content: right;
+    margin-top: 2em;
+    margin: 2em;
+    color: blue;
 }
