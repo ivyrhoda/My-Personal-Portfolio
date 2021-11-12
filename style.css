@@ -1,109 +1,254 @@
-body{
-    margin: 0px auto;
-    background-color: burlywood;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/* start menu style */
-.menu ul>li{
-    display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
-
-}
-.menu ul>li>a{
+*{
+    margin: 0;
     text-decoration: none;
-    color: black;
-    font-weight: 700;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+section{
+    padding: 40px;
+}
+/* start header style */
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 80px;
+    box-shadow: 1px 1px 1px 1px coral;
+    background-color:black;
+
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: yellow;
+}
+.nav{
+    display: flex;
+
+}
+.nav a{
+    font-size: 1rem;
+    padding: 8px 18px;
+    font-weight: bold;
+    color: #fff;
+}
+/* End header style */
+
+/* home */
+.home{  
+    display: grid;
+    align-items: center;
+    text-align: center;
+    background-color:#AA7BC3 ;
+    grid-template-columns: repeat(2,1fr);
 }
 
-.menu ul>li>a:hover{
-    color: fuchsia;
-}
-/* End menu style */
+.image-home img{
+    max-width: 90%;
+    height: 60%;
+    border-radius: 2rem;
 
-.heading{
-    text-align: left;
-    margin-left: 160px;
-    color: blue;
+
 
 }
-
-span{
-    color: red;
+.name h1{
+    color: #fff;
+    font-size: 2.3rem;
+    font-weight: 600;
 }
 
-/* start main */
+.name h2{
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.name p{
+    color: #fff;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+}
+.name{
+    line-height: 2rem;
+}
 
 
-.description{
-    float: left;
-    width: 40%;
-    background-color: blanchedalmond;
-    padding: 40px 20px 40px 80px;
-    margin: 40px;
-    border-radius: 10px;
+/* start about */
+.about{
+    background-color: #DBA8AC;
+    text-align: center;
+    width: auto;
+    height: auto;
 }
-.description p,li{
-    font-size: 25px;
+
+.about-heading h1{
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    text-align: center;
 }
-.picture{
-    float: left;
+
+.about-heading p{
+    font-size: 2rem;
+    color: #531CB3;
+}
+
+.about-heading li{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    color: #531CB3;
+    font-size: 2rem;
+}
+.technologies h2{
+    color: #fff;
+    font-size: 2.8rem; 
+    margin-top: 5rem;   
+}
+
+.front-end h2{
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.front-end img{
+    width: 10%;
+   
+}
+
+.back-end img{
+    width: 10%;
+}
+
+.back-end h2{
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.my-skills{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 50px;
+}
+/* close about */
+
+/* start project */
+.project {
+    text-align: center;
+    background-color: #AA7BC3;
+}
+.project h2{
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+
+}
+.project my-projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 0.5rem;
+
+}
+
+.my-project img{
+    height: 200px;
+    width: 150px;
+}
+.my-project p{
+    font-size: 2rem;
+    color: bisque;
+    margin-bottom: 2rem;
+}
+
+.my-project a{
+    font-size: 1.5rem;
+    color: aqua;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.contact{
+    background-color: #DBA8AC;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+.contact h2{
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactform .inputBox{
+    position: relative;
     width: 50%;
-    
-}
-
-
-footer{
-    clear: both;
-    position: absolute;
-    bottom: 0;
-}
-h5{
-    font-size: 18px;
-    text-align: center;
-    margin-left: 40px;
-}
-h3{
-    margin-left: 100px;
+    margin-top: 10px;
+    margin-left: 500px;
     margin-right: 300px;
-    font-size: 15Px;
-    color: blue;
-}
-div a{
-    margin-left: 60px;
-    margin-right: 150px;
-    font-size: 50px;
-}
-div img{
-    padding: 1%;
-    margin-left: 40px;
-    margin-right: 150px;
-    float: left;
-    shape-image-threshold: initial;
-    width: 20%;
-  
-}
-.card{
-    height: 170px;
-    width: 400px;
-    margin-bottom: 400px;
 }
 
-.card h3{
-    margin-left: 2rem;
-    text-align: center;
-    margin-right: 4rem;
-    height: 300px;
+.contactform .inputBox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px #531CB3;
+    outline: none;
+    resize: none;
 }
 
-.skills{
-    margin-right: 100px;
-    height: 70px;
-    width: 500px;
-    float: right;
-    justify-content: right;
-    margin-top: 2em;
-    margin: 2em;
-    color: blue;
+.contactform .inputBox  span{
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #000;
 }
+
+.contactform .inputBox input:focus ~ span,
+.contactform .inputBox input:valid ~ span,
+.contactform .inputBox input:focus ~ span,
+.contactform .inputBox input:valid~ span
+{
+    color: aqua;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactform .inputBox input[type="submit"]{
+    width: 100px;
+    background: brown;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+
+}
+

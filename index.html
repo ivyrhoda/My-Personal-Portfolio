@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,55 +8,112 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <!-- Start of menu -->
-    <nav class="menu"> 
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="#">ABOUT ME</a></li>
-            <li><a href="projects.html">PROJECTS</a></li>
-            <li><a href="#">CONTACTS</a></li>
+    <!-- Start of header -->
+    <header>
+     
+        <a href="#" class="logo">Ivy </a>
+        <ul class="nav">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT </a></li>
+            <li><a href="#project">PROJECTS</a></li>
+            <li><a href="#contact">CONTACTS</a></li>
         </ul>
-    </nav>  
-    <!-- End of menu -->
-    
-    <h1 class="heading">My name is Ivy <span>Rhoda</span> </h1>
-    
-    <!-- start of main part -->
-    <div class="main">
-        <div class="description">
-            <p><em>Hello!!.</em>This being my first trial course since I finished my secondary studies, 
-            <br> I'm very excited since this has being my interest from the time that I learned technology.
-             <br> I look forward to further my skills in programming</p>
-            <p>
-                Besides <strong>programming</strong>,here are some of my hobbies:
-                <ol>
-                    <li>Exposure no matter from which source</li>
-                    <li>Traveling and adventure</li>
-                </ol>
-            </p>
-        </div>
-
-        <div class="picture">
-            <img src="new.jpg">
-        </div> 
-        <div class="card">
-            
-            <img src="/phone-call.png"> <h3> +254769510522</h3>
-           </div>
-           <div class="skills">
-               <h1>Skills</h1>
-               <img src="/java.png"> 
-               <img src="/html.png">
-           </div>
-        
-        
    
-
+    </header>
+    <!-- End of header -->
     
-    <footer>
-        
-        <h5>Made by Ivy Rhoda</h5>
-    </footer>
+    
+    
+    
+    <!-- start of home -->
+ <section class="home">
+     <div class="image-home">
+         <img src="/13264.jpg" alt="" >
+     </div>
+     <div class="home-right">
+        <div class="name">
+            <h1>My name is Ivy Rhoda</h1>
+            <h2>I am a  web developer</h2>
+            <p>Front-end developer, who focuses on writting clean elligant, and efficient code.</p>
+        </div>
+     </div>
+     
+ </section>
+ <!-- end of home -->
 
-</body>
-</html>
+ <!-- about -->
+ <section class="about">
+     <div class="about-heading">
+     <h1>
+                 About <span>Me</span>
+     </h1>
+   
+     <p>I'm a form four leaver currently studing software develpment at Moringa School.
+         I'm looking forward to be one of the world wide developer.
+         I would also like to nurture my developing skills widely.
+         Besides developing I also love :
+         <ul>
+             <li >Exposore like technically.</li>
+             <li>Travelling and adventure.</li>
+         </ul>
+     </p>
+     <div class="technologies">
+         <h2>My specialities</h2>
+         <div class="my-skills">
+             <div class="front-end">
+                 <h2>Front-end</h2>
+                 <img src="/html-5.png" alt=""> 
+                 <img src="/css.png" alt=""> 
+                 <img src="/javascript.png" alt=""> 
+             </div>
+             <div class="back-end">
+                 <h2>Back-end</h2>
+                <img src="/nodejs.png" alt=""> 
+                <img src="/python.png" alt=""> 
+                <img src="/github.png" alt=""> 
+             </div>
+         </div>
+     </div>    
+     </div> 
+ </section>
+
+ <!-- start of project -->
+ <section class="project">
+     <h2>Project</h2>
+     <div class="my-project">
+     <div class="my-project">
+        <p>This is my Pet-Project</p>
+         <img src="/dog.jpeg" alt=""> 
+         <a href="http://127.0.0.1:5500/index.html">Pet-Project</a>
+        
+     </div>
+     
+
+ </section>
+ <!-- end of project -->
+
+ <!-- start of contact -->
+ <section class="contact">
+     <h2>Contacts</h2>
+     <div class="contactform">
+         <form>
+             <h2>Send Message</h2>
+             <div class="inputBox">
+                 <input type="text" name="" required="required">
+                 <span>Full Name</span>
+             </div>
+             <div class="inputBox">
+                <input type="text" name="" required="required">
+                <span>Email</span>
+            </div>
+        </div>       
+    </div>
+    <div class="inputBox">
+       <input type="submit" name="" value="Send">
+   </div>
+
+         </form>
+     </div>
+
+
+ </section>
